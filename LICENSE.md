@@ -321,4 +321,137 @@ footer {
 }
 
 .footer-links a:hover {
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<link rel="stylesheet" type="text/css" href="css/geral.css" media="screen" />
+  <meta charset="UTF-8">
+  <title>Site de Pecuária e Informática</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal da Pecuária</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Pecuária Tech</h1>
+                <p>Tecnologia e Inovação para o Agronegócio</p>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="bem-estar.html" target="_blank">Bem-Estar Animal</a></li>
+                    <li><a href="nutricao.html" target="_blank">Nutrição Avançada</a></li>
+                    <li><a href="monitoramento.html" target="_blank">Monitoramento</a></li>
+                    <li><a href="sustentabilidade.html" target="_blank">Sustentabilidade</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Revolucionando a Pecuária com Tecnologia</h2>
+                <p>Descubra como a inovação está transformando a produção animal no Brasil e no mundo</p>
+                <a href="#tecnologias" class="btn">Conheça as Tecnologias</a>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="technologies">
+            <h2>Tecnologias em Destaque</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Bem-Estar Animal</h3>
+                    <p>Sensores vestíveis monitoram saúde e comportamento 24/7</p>
+                    <a href="bem-estar.html" target="_blank" class="btn-small">Saiba mais</a>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Automação</h3>
+                    <p>Sistemas robóticos para alimentação e ordenha inteligente</p>
+                    <a href="nutricao.html" target="_blank" class="btn-small">Saiba mais</a>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-satellite-dish"></i>
+                    <h3>Monitoramento</h3>
+                    <p>Drones e satélites para gestão de rebanhos e pastagens</p>
+                    <a href="monitoramento.html" target="_blank" class="btn-small">Saiba mais</a>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Sustentabilidade</h3>
+                    <p>Tecnologias para redução de impacto ambiental</p>
+                    <a href="sustentabilidade.html" target="_blank" class="btn-small">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about-content">
+                <h2>Sobre a Pecuária 4.0</h2>
+                <p>A integração de tecnologias como IoT, Big Data e Inteligência Artificial está transformando a pecuária em uma atividade mais precisa, eficiente e sustentável. Nossa missão é difundir essas inovações para todo o setor produtivo.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">+30%</span>
+                        <span class="stat-label">Eficiência Produtiva</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">-25%</span>
+                        <span class="stat-label">Redução de Custos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">+40%</span>
+                        <span class="stat-label">Sustentabilidade</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://via.placeholder.com/600x400?text=Pecuária+Tecnológica" alt="Fazenda tecnológica">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h3>Pecuária Tech</h3>
+                <p>Inovação para o campo</p>
+            </div>
+            <div class="footer-links">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="bem-estar.html" target="_blank">Bem-Estar</a></li>
+                    <li><a href="nutricao.html" target="_blank">Nutrição</a></li>
+                    <li><a href="monitoramento.html" target="_blank">Monitoramento</a></li>
+                    <li><a href="sustentabilidade.html" target="_blank">Sustentabilidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contato</h4>
+                <p><i class="fas fa-envelope"></i> contato@pecuariatech.com.br</p>
+                <p><i class="fas fa-phone"></i> (00) 1234-5678</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Pecuária Tech. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
  
